@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 160" role="img" aria-labelledby="title desc">
+  <title id="title">KWG Films</title><desc id="desc">Logo de KWG Films, A Kany'shi Company</desc>
+  <g transform="translate(2 18)"><path fill="#d12d22" d="M0 0h24v48L71 0h34L47 59l61 63H73L24 72v50H0z"/><path fill="#f0ebdf" d="M70 7h26l22 62 25-48 25 48 22-62h26l-40 115-33-59-33 59z"/><path fill="none" stroke="#f0ebdf" stroke-width="23" d="M298 30a46 46 0 1 0 0 66h-30"/><path fill="none" stroke="#d12d22" stroke-width="23" d="M257 18a46 46 0 0 1 41 25"/><path fill="#f0ebdf" d="M268 60h46v23h-46z"/></g>
+  <path stroke="#776f65" d="M370 24v112"/><text x="400" y="73" fill="#f0ebdf" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="900" letter-spacing="8">KWG</text><text x="526" y="73" fill="#d12d22" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="900" letter-spacing="6">FILMS</text><path stroke="#776f65" d="M400 92h260"/><text x="400" y="119" fill="#c6bfb3" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="4">A KANY’SHI COMPANY</text>
+</svg>

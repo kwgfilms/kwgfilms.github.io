@@ -17,6 +17,8 @@ h2 { margin-bottom:0; font-family:Georgia,"Times New Roman",serif; font-size:cla
 .brand strong { font-family:Georgia,"Times New Roman",serif; font-size:27px; font-weight:400; }
 .brand span { font-size:13px; letter-spacing:.24em; }
 .brand em { grid-column:1 / -1; margin-top:5px; font-size:8px; font-style:normal; letter-spacing:.12em; color:#bdb5a8; }
+.brand-image { display:block; width:230px; line-height:0; }
+.brand-image img { display:block; width:100%; height:auto; }
 nav { display:flex; gap:28px; margin-left:auto; }
 nav a,.language { position:relative; font-size:12px; font-weight:700; letter-spacing:.09em; text-transform:uppercase; }
 nav a::after { content:""; position:absolute; left:0; bottom:-7px; width:0; height:1px; background:var(--red); transition:width .25s ease; }
@@ -77,6 +79,7 @@ nav a:hover::after,nav a:focus-visible::after { width:100%; }
 .founder-grid { display:grid; grid-template-columns:1.1fr .9fr; gap:90px; align-items:center; }
 .founder-image { margin:0; }
 .founder-image img { display:block; width:100%; aspect-ratio:4/3; object-fit:cover; filter:saturate(.78) contrast(1.05); }
+.founder-portrait img { aspect-ratio:4/5; object-position:center top; filter:saturate(.88) contrast(1.04); }
 .founder-image figcaption { margin-top:10px; color:#756e64; font-size:10px; letter-spacing:.12em; text-transform:uppercase; }
 .founder-copy h2 { margin-bottom:20px; }
 .founder-role { color:var(--red); font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
@@ -91,6 +94,7 @@ nav a:hover::after,nav a:focus-visible::after { width:100%; }
 footer { padding:64px 0; background:#050505; color:var(--ivory); }
 .footer-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:50px; }
 .footer-brand { display:inline-grid; }
+.footer-brand.brand-image { display:block; width:260px; }
 .footer-grid>div>p { margin:20px 0 0; color:#8e887f; font-size:11px; }
 .footer-links { display:grid; grid-template-columns:repeat(2,1fr); gap:13px; align-content:start; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
 .footer-meta { text-align:right; font-size:13px; }
@@ -131,6 +135,7 @@ footer { padding:64px 0; background:#050505; color:var(--ivory); }
   .nav-wrap { min-height:78px; }
   .mobile-menu { inset-block-start:78px; }
   .brand strong { font-size:23px; }
+  .brand-image { width:190px; }
   .hero { min-height:700px; padding-bottom:58px; }
   .hero h1 { font-size:clamp(72px,25vw,120px); line-height:.82; }
   .hero-statement { margin-top:42px; }
